@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 :root{
     --HEAD-BGCOLOR:#89A8B2;
@@ -97,6 +98,9 @@ main h1:focus{
     text-transform: lowercase;
     font-size: 3rem;
 }
+section{
+    height:
+}
 footer{
     bottom: 0;
 }
@@ -112,7 +116,7 @@ footer{
 li a,
 li a:any-link{
     text-decoration: none;
-    color: var(--HEAD-COLOR);
+    color: var(--YELLOW);
 }
 li i{
     padding:.1em;
@@ -121,7 +125,47 @@ li i{
 }
 li a:hover,
 li a:focus{
-    color: var(--YELLOW);
+    color: var(--LIGHT);
     transform: scale(1.2);
     transition: all 0.3s;
 }
+.Home{
+    height: 80vh;
+    background-image: url('../media/bg2.jpg');
+    background-position: center;
+    background-size: cover;
+    color:var(--HEAD-BGCOLOR);
+    font-size: 7rem;
+    font-weight: bolder;
+    
+}
+.Home p{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 19rem;
+    text-shadow: var(--DARK);
+    
+}
+.Home p:hover 
+.Home p:focus{
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+.Menu{
+    height: 100vh;
+}
+.Contact{
+    height: 100vh;
+}
+.social{
+    background-color: var(--HEAD-BGCOLOR);
+    color:var(--DARK);
+    border-radius: 25px;
+    font-size: inherit;
+    padding: 1rem;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 1;
+}
+
